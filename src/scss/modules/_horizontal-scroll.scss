@@ -1,0 +1,188 @@
+.spacer {
+  margin-block: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h-100 {
+  height: 100vh;
+}
+
+/* slider mask */
+.slider-mask {
+  overflow: hidden;
+  background-color: #1d1d1d;
+}
+
+/* slider track */
+.slider-track {
+  height: 100%;
+  display: inline-flex;
+}
+
+/* slider item (screen) */
+.slider-track .screen-1 {
+  width: calc(100vw - 15px);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  background-image: url(../img/horizontal-img-title.webp);
+  background-size: cover;
+  background-attachment: fixed;
+  width: auto;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: top top;
+}
+
+.screen-title-1 {
+  width: 60%;
+  height: 35%;
+  aspect-ratio: 4.5/1;
+  position: relative;
+  top: 5vh;
+}
+
+.slider-track .screen-2 {
+  width: calc(230vw - 40px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d1d1d;
+}
+
+.screen-comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 400px;
+  height: 180px;
+  font-size: 24px;
+  position: relative;
+  margin-right: 5px;
+  color: white;
+  font-family: "Basic";
+}
+
+.screen-comment-1 {
+  bottom: 15%;
+  right: 20%;
+}
+
+.screen-comment-2 {
+  top: 10%;
+}
+
+.screen-comment-3 {
+  bottom: 10%;
+  left: 20%;
+}
+
+.slider-track .screen-3 {
+  width: calc(100vw - 10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d1d1d;
+}
+
+.horizontal-box {
+  height: 100%;
+  width: 20%;
+  background-color: rgb(29, 29, 29);
+  background: linear-gradient(
+    90deg,
+    rgba(29, 29, 29, 0) 0%,
+    rgba(29, 29, 29, 1) 100%
+  );
+}
+
+.screen-comment-texte {
+  font-size: 36px;
+}
+
+.screen-comment-writer {
+  font-size: 24px;
+  margin-top: 30px;
+  opacity: 0.8;
+}
+
+.screen-3 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding-right: 150px;
+}
+.screen-3-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: end;
+  color: white;
+  padding-right: 60px;
+}
+
+.screen-3-img img {
+  width: 100%;
+}
+
+.screen-3-img {
+  width: 180vh;
+  position: relative;
+  top: 70px;
+}
+
+.screen-3 h1 {
+  font-size: 120px;
+  position: relative;
+  top: 30px;
+}
+
+.screen-3 h2 {
+  font-size: 60px;
+}
+
+.screen-3 h3 {
+  font-size: 40px;
+}
+
+.screen-3-all-third-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 25px;
+  position: relative;
+  bottom: 10px;
+  opacity: 0.8;
+}
+
+.screen-3 p {
+  font-size: 24px;
+  max-width: 60%;
+}
+
+.screen-3 a p {
+  font-size: 48px;
+  font-family: "Gloves";
+  text-align: center;
+}
+
+.screen a {
+  width: 200px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.screen-3 a {
+  text-decoration: none;
+  border: white solid 2px;
+  border-radius: 100px;
+}
+
+.screen-3 a:hover {
+  rotate: 5deg;
+}

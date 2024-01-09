@@ -1,0 +1,57 @@
+.welcome-page-title {
+  margin: 10% 25% 0%;
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+}
+
+.welcome-page-title img {
+  position: relative;
+}
+
+#welcome-background-video {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.welcome-page {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+}
+
+.welcome-page-texte {
+  height: auto;
+  width: 100%;
+  aspect-ratio: 3.5/1;
+}
+
+.welcome-page-instruction p {
+  text-align: center;
+  font-size: 24px;
+}
+
+.welcome-page-instruction {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.welcome-page-there {
+  text-decoration: underline;
+}

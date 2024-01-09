@@ -1,0 +1,21 @@
+@import "base";
+@import "layout";
+@import "modules/easter-egg";
+@import "modules/footer";
+@import "modules/horizontal-scroll";
+@import "modules/pendragon";
+@import "modules/principal";
+@import "modules/welcome-page";
+@import "modules/transition";
+
+@font-face {
+  font-family: "Basic";
+  font-weight: 400;
+  src: url("../fonts/Basic-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Gloves";
+  font-weight: 400;
+  src: url("../fonts/TheGloves.woff2") format("woff2");
+}

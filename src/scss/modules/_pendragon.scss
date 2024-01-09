@@ -1,0 +1,48 @@
+.pendragon {
+  background-color: rgb(197, 197, 197);
+}
+
+.pendragon nav {
+  background-color: white;
+  border-bottom: grey 2px solid;
+  position: fixed;
+  top: 0;
+  height: 90px;
+  width: 300vh;
+}
+.pendragon nav img {
+  width: 30vh;
+  margin: 5px;
+}
+
+.pendragon main {
+  background-color: white;
+  margin: 250px;
+}
+
+.pendragon main img {
+  width: 200px;
+  margin: 10px;
+}
+
+.restaurant {
+  display: flex;
+  flex-direction: row;
+}
+
+.pendragon-texte {
+  display: flex;
+  flex-direction: column;
+}
+
+.pendragon-comment {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-top: 20px;
+}
+
+.pendragon footer {
+  position: fixed;
+  bottom: 0;
+  margin: 20px;
+}
